@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>KindWave</title>
+         
+    <style>
+        body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1711613780140-42cd70bd2a63?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}     
+        input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+h6{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+text-shadow: 0px 0px 15px #1b0958;
+}
+.overlay{
+ margin-left: 20%;
+    background: #33c561;
+    box-shadow:  0 8px 24px rgba(0,0,0,0.12);
+    border-radius: 0.86rem;
+    width: 50%;
+    padding: 2.5rem 3rem;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+text-shadow: 0px 0px 15px #1b0958;
+font-size: xx-large;
+}
+.head img{
+    width: 100%;
+    height: 900px;
+ box-sizing: border-box;
+}
+h1:hover{
+    text-decoration: dotted #8eceff;
+    cursor: progress;
+}
+.donation-section h2{
+    text-align: center;
+ font-size: x-large;
+ font-weight: bolder;
+  box-shadow: 0px 0px 10px 5px #a6b802;
+  padding: 30px;
+  color: rgb(185, 232, 185);
+ background-color: #186108;
+}
+.donation-section p{
+    font-size: larger;
+    width: 30%;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color:#71ebb4;
+    border: 1px solid  #71ebb4  ;
+     box-shadow: 0px 0px 10px 5px #a6b802;
+     border-image: linear-gradient( to right ,#84e17c, #90e006 )1;
+     border-width: 5px;
+     margin-left: 30%;
+} 
+
+form{
+    border: 2px solid #3ad08f ;
+    margin: 50px;
+    margin-left: 30%;
+    padding: 50px;
+width: 30%;
+align-items: center;
+ box-shadow: 0px 0px 10px 5px #a6b802;
+ background-color: #1ac062;
+}
+button{
+    padding: 6px;
+    border-radius: 10%;
+    width: 80%;
+    background-color: #076e62;
+    outline: none;
+     border-color:#239452 ; 
+     box-shadow: 0px 0px 10px 5px #a6b802;
+     border-image: linear-gradient(to right,#179261, #0b6a38) 3;
+border-width: 4px;
+height: 50px;
+font-size: larger;
+font-weight: bold;
+color: white;
+    }
+    button:hover{
+background-color: #33c561;
+ border-image: linear-gradient(to right,#247353, #0b6a38) 3;
+    }
+input{
+    padding: 3px;
+    border-color:#19920e;
+    border-radius: 9px;
+    caret-color: #ff32d6;
+    accent-color: #ff32d6;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+}
+
+.impact-card{
+    border: 1px solid #0dc484;
+  box-shadow: 0px 0px 10px 5px #a6b802;
+    width: 10%;
+    display: inline-block;
+ margin-left: 10%;
+ padding: 20px;
+ background-color: #1fd17e;
+ color: white;
+ font-size: x-large;
+ font-weight: bolder;
+ text-align: center;
+}
+footer{
+    background-color: rgb(16, 68, 50);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: large;
+
+}
+.end a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <div class="donation-section">
+ <center> <h2>Support Our Mission with Your Generosity</h2></center>
+    </div>
+    <!-- header section -->
+    <header>
+        <nav>
+          <div class="overlay">
+                <H1>Empower Change with Every Donation</H1>
+                <h6>Your support fuels real impact, transforming lives one donation at a timeYour support fuels real impact, transforming lives one donation at a time</h6>
+            </div>
+    </header>
+    <!-- donation section -->
+    <div class="donation-section">
+        <br><br><br><br>
+ <p>Easily make a donation today to help us create lasting impact. Every contribution counts.</p>
+     <form action="" style="color: azure; font-size: larger; font-weight: bolder;" id="form">
+        <label for="amount">Donation Amount (USD)   <br><br><input type="number" id="amount"></label>
+        <br> <br><br><br>
+        <label for="name">Full Name  <br><br><input type="text" id="name"></label>
+        <br> <br><br><br>
+        <label for="email">Email Address  <br><br> <input type="text" id="email" placeholder="you@example.com"></label> 
+        <br><br><br><br>
+     <center> <button class="btn">Donate</button> </center>  
+     </form>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <!-- impact  -->
+    <div class="impact">
+<div class="impact-card">
+<i class="fa-solid fa-circle-plus fa-flip-horizontal fa-lg" style="color: #186108;"></i>
+<h2>12,345+</h2>
+<h5>Donations Received</h5>
+</div>
+<div class="impact-card">
+<i class="fa-solid fa-bars fa-lg" style="color: #186108;"></i>
+<h2>8,750+</h2>
+<h5>Lives Impacted</h5>
+</div>
+<div class="impact-card">
+<i class="fa-solid fa-circle-half-stroke fa-lg" style="color: #186108;"></i>
+<h2>35</h2>
+<h5>Active Projects</h5>
+</div>
+        <div class="impact-card">
+<i class="fa-solid fa-bars-staggered fa-lg" style="color: #186108;"></i>
+<h2>1,200+</h2>
+<h5>Volunteers Engaged</h5>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="foot" style="color: white; text-align: center; font-size: x-large; width: 30% ; margin-left: 30%; background-color: #247353;">
+       <br><br>
+        <p><b style="color: #3ad08f; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Donate Now</b> is committed to transparency, trust, and maximum impact. All donations go directly to support important causes that need your help.</p>
+   <br><br><br>
+   <p>Thanks For Your Support!</p>
+   <br>
+    </div>
+    <br><br><br><br><br><br><br>
+<footer>
+    <br><br><br>
+ <p></p>©2024 Kind Wave. All rights reserved.
+    <br><br>
+    <div class="end">
+    <a href="mailto:bibiarfa567@gmail.com">Email-Us📧</a>
+<br>    <br>
+<a href="tel:+923152385908">Contact-Us📞</a>
+<br> <br>
+<a href="about.html">About-Us</a>
+<br><br>
+<a href="#form">Donation</a>
+<br><br>
+</div>
+</footer>
+</body>
+</html>
